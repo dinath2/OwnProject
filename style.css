@@ -1,19 +1,19 @@
 /*Common CSS*/
 
 body {
-    background-image: img src="/Assets/brickwall.jpg";
+    background-image: img src="Assets/brickwall.jpg";
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#backButton {
+.backButton {
 
     background-image: img src="";
 
 }
 
-#nextButton {
+.nextButton {
 
     background-image: img src="";
     
@@ -25,7 +25,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
-#basicBox {
+.basicBox {
     background-color: white;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;;
@@ -44,6 +44,20 @@ h1 {
     flex-direction: row;
 }
 
+#infoButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: royalblue;
+}
+
+#frankieButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+}
+
 .Inactive {
     width: 30px;
     height: 30px;
@@ -53,18 +67,18 @@ h1 {
 
 /*Character page*/
 
-#statBox {
+.statBox {
     background-color: #94CACA 50%;
     border-style: solid black ;
     border-radius: 5px;
 }
 
-#Colums {
+.Colums {
     display: flex;
     flex-direction: column;
 }
 
-#Rows {
+.Rows {
     display: flex;
     flex-direction: row;
     justify-content: center;
