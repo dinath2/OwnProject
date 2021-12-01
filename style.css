@@ -50,10 +50,7 @@ h1 {
     position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3,1);
-}
-
-.Col {
+    grid-template-rows: repeat(3,1fr);
 }
 
 #infoButton {
@@ -61,6 +58,8 @@ h1 {
     height: 250px;
     border-radius: 50%;
     background-color: royalblue;
+    grid-row: 2;
+    grid-column: 2;
 }
 
 #frankieButton {
@@ -68,6 +67,25 @@ h1 {
     height: 150px;
     border-radius: 50%;
     background-color: red;
+    grid-row: 1;
+    grid-column: 2;
+
+}
+
+#leftButton {
+    grid-row: 2;
+    grid-column: 1;
+    
+}
+
+#rightButton {
+    grid-row: 2;
+    grid-column: 3;
+}
+
+#buttomButton {
+    grid-row: 3;
+    grid-column: 2;
 }
 
 .Inactive {
