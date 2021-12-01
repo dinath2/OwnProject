@@ -9,14 +9,10 @@ body {
 
 .backButton {
 
-    background-image: url(Assets/backButton.png);
-
 }
 
 .nextButton {
 
-    background-image: url(Assets/NextButton.png);
-    
 }
 
 h1 {
@@ -28,7 +24,8 @@ h1 {
 .basicBox {
     background-color: white;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    margin: 15px;
 }
 
 /*App/Home page*/
@@ -97,10 +94,19 @@ h1 {
 
 /*Character page*/
 
+
+
 .statBox {
-    background-color: #94CACA 50%;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: white;    
     border-style: solid black ;
     border-radius: 5px;
+    width: 30px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
 }
 
 .Colums {
@@ -111,8 +117,8 @@ h1 {
 .Rows {
     display: flex;
     flex-direction: row;
-    margin: 15px;
-    justify-content: center;
+    margin: 10px;
+    justify-content: space-between;
 }
 
 /*Bio page*/
