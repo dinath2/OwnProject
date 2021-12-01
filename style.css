@@ -1,0 +1,75 @@
+/*Common CSS*/
+
+body {
+    background-image: img src="/Assets/brickwall.jpg";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#backButton {
+
+    background-image: img src="";
+
+}
+
+#nextButton {
+
+    background-image: img src="";
+    
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#basicBox {
+    background-color: white;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+/*App/Home page*/
+
+#introGuide {
+    background-image: img src="Assets/introplate.png";
+    background-size: 50%;
+    align-content: center;
+}
+
+#ButtonChooser {
+    display: flex;
+    flex-direction: row;
+}
+
+.Inactive {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+/*Character page*/
+
+#statBox {
+    background-color: #94CACA 50%;
+    border-style: solid black ;
+    border-radius: 5px;
+}
+
+#Colums {
+    display: flex;
+    flex-direction: column;
+}
+
+#Rows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*Bio page*/
+
+/*Info page*/
