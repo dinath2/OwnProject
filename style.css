@@ -34,36 +34,45 @@ h1 {
 /*App/Home page*/
 
 #introGuide {
-    background-image: url(Assets/introplate.png);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#introPlate {
+    position: relative;
+    margin-top: 75px;
+    width: 600px;
     height: 600px;
-    width: 600px;}
+}
 
 #ButtonChooser {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3,1);
+}
+
+.Col {
 }
 
 #infoButton {
-    width: 500px;
-    height: 500px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-color: royalblue;
 }
 
 #frankieButton {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: red;
 }
 
 .Inactive {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     background-color: gray;
 }
@@ -84,6 +93,7 @@ h1 {
 .Rows {
     display: flex;
     flex-direction: row;
+    margin: 15px;
     justify-content: center;
 }
 
